@@ -1,24 +1,43 @@
+body {
+  font-family: 'open sans', sans-serif;
+
+}
+
 .container, .container-fluid{
   border:solid 1px black;
   margin-bottom:20px;
-  background: pink;
+  background: #efefef;
 }
 
 
 [^="col-"]{
   border-solid 1px green;
 }
- @media screen and (min-width:768px);
-  {
-    @media screen and (min-width:992px);
-     {
+.my-class-shared {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: pink;
 
- @media screenand (min-width:1200px) {
-   .my-shared-class{
-     padding-top: 60px;
-     padding-bottom: 60px;
-   }
- }
+}
+.example-background {
+    background: #efefef;
+}
+
+/* bootstrap sm size */
+ @media screen and (min-width:768px)
+  {
+  }
+    /* bootstrap md size */
+    @media screen and (min-width:992px)
+     {
+     }
+/* bootstrap lg size */
+ @media screen and (min-width:1200px) {
+   .my-class-shared {
+     padding-top:60px;
+     padding-bottom:60px;
+  }
+
    .my-class-1{
      background:red;
    }
